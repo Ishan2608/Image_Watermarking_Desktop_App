@@ -4,8 +4,6 @@ A python program to water mark any image and save it.
   <img src="./image_watermark.gif">
 </div>
 
-<em> Text </em>
-
 <h2> Step 1: Setting up Screen </h2>
 <p>
   Import tkinter library and create a window object using <em>Tk()</em>. Then call <em>mainloop()</em> method to keep the window on unless closed by the user.
