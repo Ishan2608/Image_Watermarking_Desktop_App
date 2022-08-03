@@ -4,6 +4,13 @@ A python program to water mark any image and save it.
   <img src="./image_watermark.gif">
 </div>
 
+<hr>
+  <h1> Program Flowchart </h1>
+  <img src="./Watermark Image Flowchart.png" alt="Program Flowchart">
+<hr>
+
+<h1> Guide to Build this Project </h1>
+
 <h2> Step 1: Setting up Screen </h2>
 <p>
   Import tkinter library and create a window object using <em>Tk()</em>. Then call <em>mainloop()</em> method to keep the window on unless closed by the user.
@@ -34,3 +41,4 @@ A python program to water mark any image and save it.
   After that we reset the widgets to make them look ready to take another input.
 </p>
 
+<hr>
