@@ -30,7 +30,13 @@ def water_mark():
 
     w, h = main_image.size
     x, y = int(w / 2), int(h / 2)
-    font = ImageFont.truetype("arial.ttf", int(w / 6))
+    if x > y:
+        font_size = y
+    elif y > x:
+        font_size = x
+    else:
+        font_size = x
+    font = ImageFont.truetype("arial.ttf", int(font_size/6))
 
     draw.text((x, y), text, font=font, fill=(255, 255, 255, 170), anchor='ms')
     final = Image.alpha_composite(main_image, watermark)
@@ -38,7 +44,7 @@ def water_mark():
     f = filename.split('/')[-1]
     rand_id = random.random() * 1000000
     rand_id = int(rand_id)
-    new_path = f'{f}_watermarked_{rand_id}.png'
+    new_path = f'C:\\Users\\Admin\\Pictures\\Watermarked\\{f}_watermarked_{rand_id}.png'
     final.save(new_path)
     final.show()
 
