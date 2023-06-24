@@ -1,5 +1,6 @@
 # Image_Watermarking_Desktop_App
-A python program to water mark any image and save it.
+With my Python programming skills, I have developed a user-friendly desktop application that simplifies the process of watermarking images. By allowing users to upload an image and enter their desired text, this application seamlessly adds a customizable watermark to the image. The final watermarked image is automatically saved to the user's computer, empowering them to protect their creative work or brand their images effortlessly. With its intuitive interface and efficient functionality, this application streamlines the image watermarking process for users of all levels of technical expertise.
+
 <div>
   <img src="./image_watermark.gif">
 </div>
